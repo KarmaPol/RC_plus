@@ -28,11 +28,12 @@ public class Main {
         customerList.add(moblieCustomer);
 
         // 고객 정보 조회 & 가격 계산
-        for(Customer customer : customerList){
+        customerList.stream().forEach((customer) -> {
             System.out.println("====================");
             customer.calculatePrice();
             customer.getUserInfo();
-        }
+        });
+
         System.out.println("====================");
 
         // 고객 객체 비교
