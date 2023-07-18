@@ -1,4 +1,4 @@
-package javaObj.domain;
+package week1.javaObj.domain;
 
 public enum Grade {
     BRONZE{

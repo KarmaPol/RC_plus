@@ -1,7 +1,7 @@
-package javaObj.domain;
+package week1.javaObj.domain;
 
-import javaObj.domain.discount.BonusDiscountPolicy;
-import javaObj.domain.discount.DiscountPoliciy;
+import week1.javaObj.domain.discount.BonusDiscountPolicy;
+import week1.javaObj.domain.discount.DiscountPoliciy;
 
 abstract public class Customer {
     private String connection;

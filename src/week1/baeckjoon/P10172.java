@@ -1,4 +1,4 @@
-package baeckjoon;
+package week1.baeckjoon;
 
 public class P10172 {
     public static void main(String[] args) {

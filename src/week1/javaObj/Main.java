@@ -1,12 +1,12 @@
-package javaObj;
+package week1.javaObj;
 
-import javaObj.domain.Customer;
-import javaObj.domain.Grade;
-import javaObj.domain.MoblieCustomer;
-import javaObj.domain.WebCustomer;
-import javaObj.domain.discount.BonusDiscountPolicy;
-import javaObj.domain.discount.DiscountPoliciy;
-import javaObj.domain.discount.MinusDiscountPolicy;
+import week1.javaObj.domain.Customer;
+import week1.javaObj.domain.Grade;
+import week1.javaObj.domain.MoblieCustomer;
+import week1.javaObj.domain.WebCustomer;
+import week1.javaObj.domain.discount.BonusDiscountPolicy;
+import week1.javaObj.domain.discount.DiscountPoliciy;
+import week1.javaObj.domain.discount.MinusDiscountPolicy;
 
 import java.util.ArrayList;
 import java.util.List;

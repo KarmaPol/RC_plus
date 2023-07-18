@@ -1,4 +1,4 @@
-package javaObj.domain.discount;
+package week1.javaObj.domain.discount;
 
 public class BonusDiscountPolicy implements DiscountPoliciy{
     @Override
