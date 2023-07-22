@@ -5,13 +5,8 @@ import week1.javaObj.domain.discount.DiscountPoliciy;
 
 public class MoblieCustomer extends Customer{
     public MoblieCustomer(String name, Grade grade, DiscountPoliciy discountPoliciy, int price) {
+        super(name,grade,discountPoliciy,price);
         setConnection("Mobile");
-        setBonusPoint(0);
-
-        setName(name);
-        setGrade(grade);
-        setDiscountPolicy(discountPoliciy);
-        setPrice(price);
     }
 
     @Override

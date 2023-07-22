@@ -5,13 +5,8 @@ import week1.javaObj.domain.discount.DiscountPoliciy;
 
 public class WebCustomer extends Customer {
     public WebCustomer(String name, Grade grade, DiscountPoliciy discountPoliciy, int price) {
+        super(name,grade,discountPoliciy,price);
         setConnection("Web");
-        setBonusPoint(0);
-
-        setName(name);
-        setGrade(grade);
-        setDiscountPolicy(discountPoliciy);
-        setPrice(price);
     }
 
     @Override

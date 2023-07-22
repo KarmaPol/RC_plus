@@ -11,6 +11,14 @@ abstract public class Customer {
     private int price;
     private int BonusPoint;
 
+    public Customer(String name, Grade grade, DiscountPoliciy discountPoliciy, int price) {
+        setBonusPoint(0);
+        setName(name);
+        setGrade(grade);
+        setDiscountPolicy(discountPoliciy);
+        setPrice(price);
+    }
+
     public String getConnection() {
         return connection;
     }
